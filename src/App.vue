@@ -1,0 +1,45 @@
+<template>
+  <div id="app">
+    <b-container>
+      <header>
+        <a href="https://github.com/">
+          <img src="./assets/github_small.png" alt="Github small logo" />
+        </a>
+        <b-nav align="fixed-top" class="m-3">
+          <b-nav-item active>
+            <router-link :to="{ name: 'Hello' }">Home</router-link>
+          </b-nav-item>
+          <b-nav-item active>
+            <router-link to="/about">About</router-link>
+          </b-nav-item>
+          <b-nav-item active>
+            <router-link to="/repos/all_repo">My Repos</router-link>
+          </b-nav-item>
+        </b-nav>
+      </header>
+      <main>
+        <router-view></router-view>
+      </main>
+    </b-container>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "app"
+};
+</script>
+
+<style lang="scss" scoped>
+html {
+  height: 100%;
+  background: #63d0ff;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #63d0ff;
+  height: 100%;
+}
+</style>
