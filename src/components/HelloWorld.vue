@@ -9,7 +9,7 @@
     name: 'Hello',
     data () {
       return {
-        msg: 'Welcome to My Github Info'
+        msg: 'Welcome to Github Fast Look'
       }
     }
   }

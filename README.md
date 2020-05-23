@@ -1,5 +1,11 @@
 # my Repo 
 
+
+## todo
+1. emit to app.vue and add (username)
+2. add a mechanism to change username
+
+
 ## learning note
 
 1. basic use of vue-router
@@ -7,6 +13,7 @@
 4. use a tag with vue
 5. css, use li width and float to line up
 6. Take quite a time to learn-back how to use CSS and BootstrapVue!
+7. Use router-link to pass variable to other component
 
 
 ## Reference resource

@@ -13,8 +13,9 @@
             <router-link to="/about">About</router-link>
           </b-nav-item>
           <b-nav-item active>
-            <router-link to="/repos/all_repo">My Repos</router-link>
+            <router-link to="/repos">Repos Fast Look</router-link>
           </b-nav-item>
+          <!-- <input v-model="userId" placeholder="edit me"> -->
         </b-nav>
       </header>
       <main>
@@ -26,7 +27,20 @@
 
 <script>
 export default {
-  name: "app"
+  name: "app",
+  data() {
+    return {
+      // userId: ""
+    };
+  },
+  // mounted() {
+  //   console.log(this.$router.history.current.params.id);
+  // },
+  // watch: {
+  //   $route: function() {
+  //     this.userId = this.$router.history.current.params.id
+  //   }
+  // }
 };
 </script>
 

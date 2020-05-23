@@ -1,9 +1,8 @@
 <template>
   <div>
-    <h1 class="m-4">My Github Info?</h1>
+    <h1 class="m-4">What is Github Fast Look?</h1>
     <p class="m-4">
-      This is my github repo quick check. I think maybe it's only me to able to use this service. The next step would be
-      allow user to provide their github a/c and you can log into this and use it!
+      I just think it's not not that convient to check all my repo in current github UX setting, so I build this simple tool. It just use Github public API V3 and just need your user name, add you can have a quick skim for all of your repos.
     </p>
   </div>
 </template>

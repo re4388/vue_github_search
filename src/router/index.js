@@ -18,7 +18,7 @@ export default new Router({
             component: About
         },
         {
-            path: '/repos/:repo_info',
+            path: '/repos',
             name: 'Repos',
             component: Repos
         }
