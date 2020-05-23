@@ -1,12 +1,11 @@
-# my Repo 
+# Github Quick Look
 
-
-## todo
+## Todo
 1. emit to app.vue and add (username)
 2. add a mechanism to change username
 
 
-## learning note
+## Learning note
 
 1. basic use of vue-router
 2. use axios to fetch github info. Github V3 API to use.
