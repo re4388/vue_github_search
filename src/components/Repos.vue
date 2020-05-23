@@ -7,8 +7,8 @@
       <b-button class="m-2" variant="warning" @click="getOrderBycreated">Order by created</b-button>
      
       <div class="d-flex m-2">
-        <b-form-input v-model="userId" debounce="500" placeholder="請輸入Github使用者名稱"></b-form-input>
-        <b-form-input v-model="searchWords" debounce="500" placeholder="請輸入要搜尋的關鍵字"></b-form-input>
+        <b-form-input v-model="userId" debounce="500" placeholder="Enter your Github username"></b-form-input>
+        <b-form-input v-model="searchWords" debounce="500" placeholder="Enter keyword to search repo"></b-form-input>
       </div>
     </div>
     <div v-if="validUsername">
