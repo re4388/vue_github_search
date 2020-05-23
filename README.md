@@ -1,8 +1,10 @@
 # Github Quick Look
 
+## Live Demo
+[Github Fast Look](https://nervous-bassi-0a6d60.netlify.app/#/)
+
 ## Todo
-1. emit to app.vue and add (username)
-2. add a mechanism to change username
+1. ...
 
 
 ## Learning note
