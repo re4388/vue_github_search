@@ -5,7 +5,7 @@
       <b-button class="m-2" variant="success" @click="forked">Forked</b-button>
       <b-button class="m-2" variant="info" @click="notForked">Not forked</b-button>
       <b-button class="m-2" variant="warning" @click="getOrderBycreated">Order by created</b-button>
-     
+
       <div class="d-flex m-2">
         <b-form-input v-model="userId" debounce="500" placeholder="Enter your Github username"></b-form-input>
         <b-form-input v-model="searchWords" debounce="500" placeholder="Enter keyword to search"></b-form-input>
@@ -28,7 +28,10 @@
       </div>
     </div>
     <div v-else>
-      <p>No this user in Github</p>
+      <div class="d-flex align-items-center">
+        <strong>Loading...</strong>
+        <b-spinner class="ml-auto"></b-spinner>
+      </div>
     </div>
   </div>
 </template>
@@ -44,7 +47,7 @@ export default {
       repo: {},
       searchWords: "",
       validUsername: false,
-      userId:'re4388'
+      userId: "re4388"
     };
   },
 
@@ -58,11 +61,10 @@ export default {
     }
   },
   watch: {
-    userId: function (){
+    userId: function() {
       // this.$router.go()
       this.fetchData();
-      this.getRemoteData()
-
+      this.getRemoteData();
     }
   },
 

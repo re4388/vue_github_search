@@ -4,7 +4,7 @@
 [Github Fast Look](https://nervous-bassi-0a6d60.netlify.app/#/)
 
 ## Todo
-1. ...
+1. use access toeknt to send req to Github API, o.w. only have 60 per hr now, up to 5000 per hr with token
 
 
 ## Learning note
@@ -25,7 +25,8 @@
 4. [Vue.js 用computed跟filter做一個簡易搜尋功能 - Vue - Let's Write](https://letswrite.tw/vue-search/)
 5. [BootstrapVue](https://bootstrap-vue.org/)
 6. [網頁點線粒子插件-網站背景鼠標點線窩巢特效-canvas-nest.js_前端_前端小獅的博客-CSDN博客](https://blog.csdn.net/m0_37885651/article/details/80026164)
-7. Reference to muen_deepra_ui
+7. [chrome插件開發github倉庫star趨勢圖 | 程式前沿](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/654985/)
+8. Reference to muen_deepra_ui
 
    
 
