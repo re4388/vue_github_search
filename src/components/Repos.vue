@@ -8,7 +8,7 @@
      
       <div class="d-flex m-2">
         <b-form-input v-model="userId" debounce="500" placeholder="Enter your Github username"></b-form-input>
-        <b-form-input v-model="searchWords" debounce="500" placeholder="Enter keyword to search repo"></b-form-input>
+        <b-form-input v-model="searchWords" debounce="500" placeholder="Enter keyword to search"></b-form-input>
       </div>
     </div>
     <div v-if="validUsername">
