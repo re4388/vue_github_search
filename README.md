@@ -16,6 +16,7 @@
 6. Take quite a time to learn-back how to use CSS and BootstrapVue!
 7. Use router-link to pass variable to other component
 8. use BootstrapVue
+9. about 環境變數設定。需要prefix VUE_APP_ 才可以讀到，然後要重開serve才可以讀到
 
 
 ## Reference resource
@@ -26,7 +27,8 @@
 5. [BootstrapVue](https://bootstrap-vue.org/)
 6. [網頁點線粒子插件-網站背景鼠標點線窩巢特效-canvas-nest.js_前端_前端小獅的博客-CSDN博客](https://blog.csdn.net/m0_37885651/article/details/80026164)
 7. [chrome插件開發github倉庫star趨勢圖 | 程式前沿](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/654985/)
-8. Reference to muen_deepra_ui
+8. [node.js - Using Environment Variables with Vue.js - Stack Overflow](https://stackoverflow.com/questions/50828904/using-environment-variables-with-vue-js)
+9. Reference to muen_deepra_ui
 
    
 

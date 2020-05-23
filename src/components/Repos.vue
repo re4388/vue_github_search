@@ -95,10 +95,14 @@ export default {
       });
     },
     fetchData() {
-      axios
-        .get(
-          `https://api.github.com/users/${this.userId}/repos?page=1&per_page=100`
-        )
+      axios({
+            method: 'get',
+            url: `https://api.github.com/users/${this.userId}/repos?page=1&per_page=100`,
+            auth: {
+              username: process.env.VUE_APP_GITHUB_USER_NAME,
+              password: process.env.VUE_APP_GITHUB_PASSWROD
+            },
+          })
         .then(resp => {
           this.validUsername = true;
           this.savedData = resp.data;

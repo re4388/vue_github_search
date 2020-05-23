@@ -26,6 +26,10 @@
 </template>
 
 <script>
+// import dotenv from "dotenv";
+// require('dotenv').config()
+
+
 export default {
   name: "app",
   data() {
@@ -33,9 +37,12 @@ export default {
       // userId: ""
     };
   },
-  // mounted() {
-  //   console.log(this.$router.history.current.params.id);
-  // },
+  mounted() {
+    console.log(process.env.VUE_APP_GITHUB_USER_NAME);
+    console.log(process.env.VUE_APP_GITHUB_PASSWROD);
+    // console.log();
+    
+  },
   // watch: {
   //   $route: function() {
   //     this.userId = this.$router.history.current.params.id
