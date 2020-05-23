@@ -28,9 +28,9 @@
       </div>
     </div>
     <div v-else>
-      <div class="d-flex align-items-center">
+      <div class="d-flex m-5">
         <strong>Loading...</strong>
-        <b-spinner class="ml-auto"></b-spinner>
+        <b-spinner class="ml-4"></b-spinner>
       </div>
     </div>
   </div>
