@@ -1,11 +1,11 @@
 <template>
   <div>
     <div class="center d-flex m-4">
-      <b-button class="m-2" variant="primary" @click="allRepo">All</b-button>
+      <b-button class="m-2" variant="secondary" @click="allRepo">All</b-button>
       <b-button class="m-2" variant="success" @click="forked">Forked</b-button>
       <b-button class="m-2" variant="info" @click="notForked">Not forked</b-button>
       <b-button class="m-2" variant="warning" @click="getOrderBycreated">Order by created</b-button>
-      <b-button class="m-2" variant="warning" @click="getNotForkedOrderBycreated">Order by notForked created</b-button>
+      <b-button class="m-2" variant="primary" @click="getNotForkedOrderBycreated">Order by notForked created</b-button>
 
       <div class="d-flex m-2">
         <b-form-input v-model="userId" debounce="500" placeholder="Enter your Github username"></b-form-input>
